@@ -26,3 +26,7 @@ gerektiğinde bu ilanları sistemden silebilecek.
 ---
 ### UML Case Diagram
 ![text](https://user-images.githubusercontent.com/94866363/179572496-9c194e46-7bee-4ee0-8ead-9fe43daf7ff6.png)
+---
+
+### Use Case Diagram
+![text](https://user-images.githubusercontent.com/94866363/179572932-fc1585c7-4eff-45c7-abf0-cae58ae86768.png) 
