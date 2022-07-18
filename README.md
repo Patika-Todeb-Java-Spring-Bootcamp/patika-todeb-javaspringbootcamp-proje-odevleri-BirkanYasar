@@ -24,4 +24,5 @@ gerektiğinde bu ilanları sistemden silebilecek.
 > Yönetici ve Kullanıcılar için LogIn paneli olacak misafir için üye olmadan devam et seçeneği sunulacak.
 
 ---
-###
+### UML Case Diagram
+![text](https://user-images.githubusercontent.com/94866363/179572496-9c194e46-7bee-4ee0-8ead-9fe43daf7ff6.png)
