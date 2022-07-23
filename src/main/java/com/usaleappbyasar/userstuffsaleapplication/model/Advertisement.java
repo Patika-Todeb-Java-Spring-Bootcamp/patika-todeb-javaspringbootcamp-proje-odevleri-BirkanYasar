@@ -5,18 +5,18 @@ import java.time.LocalDate;
 public class Advertisement {
 
     private String adTitle;
-    private Type adType;
+    private String adType;
     private String adDescription;
     private String Adress; // advert adress.
     private LocalDate PublishDate; // publish date of Ad.
     private double price;
-    private int adNO; // advert id no.
+    private int adNO = 1; // advert id no.
     private int visitor;    // count of visitor.
-    private int favoritiesCount; // the number of people who added the ad to their favourites.
+    private int favoritiesCount = 0; // the number of people who added the ad to their favourites.
     private User adUser;    // Publisher.
 
     public Advertisement(String adTitle, String adType, String adDescription, String adress,
-                         LocalDate publishDate, double price, int adNO, int visitor,
+                         LocalDate publishDate, double price,
                          int favoritiesCount, User adUser) {
 
         this.adTitle = adTitle;
@@ -25,8 +25,8 @@ public class Advertisement {
         Adress = adress;
         PublishDate = publishDate;
         this.price = price;
-        this.adNO = adNO;
-        this.visitor = visitor;
+        this.adNO = adNO++;
+        this.visitor = visitor++;
         this.favoritiesCount = favoritiesCount;
         this.adUser = adUser;
     }
@@ -39,13 +39,13 @@ public class Advertisement {
         this.adTitle = adTitle;
     }
 
-    public Type getAdType() {
+   /* public Type getAdType() {
         return adType;
     }
 
     public void setAdType(Type adType) {
         this.adType = adType;
-    }
+    }*/
 
     public String getAdDescription() {
         return adDescription;
@@ -81,10 +81,6 @@ public class Advertisement {
 
     public int getAdNO() {
         return adNO;
-    }
-
-    public void setAdNO(int adNO) {
-        this.adNO = adNO;
     }
 
     public int getVisitor() {
