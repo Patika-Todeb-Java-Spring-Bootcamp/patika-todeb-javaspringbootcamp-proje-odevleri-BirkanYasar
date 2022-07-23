@@ -12,6 +12,7 @@ public class User {
     private String email;
     private String password;
     private int userNO; // kullanıcı numarası
+    private int countOfReview; // User review points;
     private int advertQuantity; // kullanıcının sahip olduğu ilan adedi.
     private List<Advertisement> favorities; //kullanıcının favori ilanlari.
 
